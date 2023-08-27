@@ -1,0 +1,40 @@
+/* components/Header.module.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #414141;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 16px;
+    box-shadow: 0px 4px 24px 0px rgba(71, 71, 71, 0.15);
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    text-decoration: none;
+    color: #414141;
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav li a {
+    text-decoration: none;
+    color: #414141;
+  }
+
+
+  .nav li a:hover {
+    color: #bbbbbb;
+    text-decoration: underline;
+}
+  

@@ -1,0 +1,27 @@
+/* components/Hero.module.css */
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    width: 100%;
+  }
+  
+  .content {
+    flex: 1;
+    max-width: 500px;
+    width:100%;
+  }
+  
+  .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    width:100%;
+  }
+  
+  /* Estilos para cuando se cambia el orden de las columnas */
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  

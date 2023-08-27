@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -72,7 +72,7 @@
     --card-border-rgb: 200, 200, 200;
   }
 }
-
+ */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -86,15 +86,21 @@ body {
 }
 
 body {
-  padding: 100px;
-  max-width: 1000px;
+  /* padding: 100px;
+  max-width: 1200px; */
   margin: 0 auto;
+  min-height: 100vh;
 }
 .main {
   padding: 16px;
 }
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -114,3 +120,4 @@ a {
     color-scheme: dark;
   }
 }
+ */

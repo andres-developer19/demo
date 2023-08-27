@@ -1,5 +1,7 @@
 import img from '../public/img/materiales.png'
 import Hero from '../components/hero/Hero'
+import { LikeButton } from '../LikeButton'
+
 
 export default function page() {
     return (
@@ -22,6 +24,7 @@ export default function page() {
           Objetivos para tu sitio web
           "
           buttonText="Ver Más"
+          buttonColor="#3273ff"
           imageSrc={img}
           reverse={true}
         />

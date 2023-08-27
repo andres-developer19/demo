@@ -11,8 +11,17 @@
     box-shadow: 0px 4px 24px 0px rgba(71, 71, 71, 0.15);
   }
   .container {
-    max-width: 1000px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
+  }
+
+  .containerHeader {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .logo a {

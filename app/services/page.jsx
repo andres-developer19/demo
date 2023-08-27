@@ -1,5 +1,7 @@
 import img from '../public/img/services.jpg'
 import Hero from '../components/hero/Hero'
+import { LikeButton } from '../LikeButton'
+
 
 export default function page() {
     return (
@@ -20,6 +22,7 @@ export default function page() {
           Certificado SSL (sitio web seguro)
           Plataforma WordPress"
           buttonText="Ver Más"
+          buttonColor="#dd32ff"
           imageSrc={img}
           reverse={false}
         />

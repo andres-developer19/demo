@@ -5,6 +5,7 @@ import styles from './Header.module.css';
 const Header = () => {
   return (
     <header className={styles.header}>
+      <div className={`${styles.container} ${styles.containerHeader}`}>
       <div className={styles.logo}>
         <Link href="/">
           Logo
@@ -40,6 +41,7 @@ const Header = () => {
           {/* Agrega más elementos de navegación aquí */}
         </ul>
       </nav>
+      </div>
     </header>
   );
 };

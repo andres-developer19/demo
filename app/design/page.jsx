@@ -1,6 +1,7 @@
 
 import img from '../public/img/diseño.png'
 import Hero from '../components/hero/Hero'
+import { LikeButton } from '../LikeButton'
 
 export default function page() {
     return (
@@ -15,6 +16,7 @@ export default function page() {
           Capacitación
           Cuenta de correo electrónico profesional"
           buttonText="Ver Más"
+          buttonColor="#3273ff"
           imageSrc={img}
           reverse={true}
         />

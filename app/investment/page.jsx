@@ -1,5 +1,6 @@
 import img from '../public/img/inversion.jpg'
 import Hero from '../components/hero/Hero'
+import { LikeButton } from '../LikeButton'
 
 export default function page() {
     return (
@@ -32,6 +33,7 @@ export default function page() {
 
           "
           buttonText="Ver Más"
+          buttonColor="#3273ff"
           imageSrc={img}
           reverse={true}
         />

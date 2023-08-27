@@ -6,8 +6,8 @@ export default function page() {
     return (
       <>
         <Hero 
-          label="Entrega"
-          title="Entrega"
+          label="Diseño web"
+          title="Diseño web"
           description="
           Accesos al panel de control del sitio web
           Desarrollo completo del sitio web

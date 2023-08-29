@@ -1,6 +1,7 @@
 import img from '../public/img/services.jpg'
 import Hero from '../components/hero/Hero'
 import { LikeButton } from '../LikeButton'
+import { ListToDo } from '../todo/ListToDo'
 
 
 export default function page() {
@@ -26,6 +27,7 @@ export default function page() {
           imageSrc={img}
           reverse={false}
         />
+        <ListToDo />
       </>
     )
   }

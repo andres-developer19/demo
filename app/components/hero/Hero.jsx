@@ -2,11 +2,16 @@
 import Image from 'next/image';
 import styles from './Hero.module.css';
 
-const Hero = ({ label, title, description, buttonText, buttonColor, imageSrc, reverse }) => {
+const Hero = ({ bgColor,sectionPadding, label, title, description, buttonText, buttonColor, imageSrc, reverse }) => {
   const containerClassName = reverse ? styles.reverse : '';
 
+  const bgStyle = {
+    backgroundColor: bgColor,
+    padding: sectionPadding 
+  }
+
   return (
-    <section className={`${styles.hero} ${containerClassName}`}>
+    <section style={bgStyle} className={`${styles.hero} ${containerClassName}`}>
       <div className={styles.content}>
         <span>{label}</span>
         <h1>{title}</h1>
